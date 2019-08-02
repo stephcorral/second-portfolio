@@ -6,19 +6,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <style>
   .img-responsive {
     height: 200px;
-    background: url("images/firstTemplate.jpg") no-repeat;
+    background: url("images/profile.jpg") no-repeat;
+    background-size: contain;
   }
   .jumbotron{
-    background: url("images/phxSunset.jpg") no-repeat;
-    object-fit: cover;
+    background-image: linear-gradient(to bottom right, #cca6cb, white);
   }
   .fontFam{
     font-family: 'Share Tech Mono', monospace;
+  }
+  .img-fluid{
+    height: 180px;
+    background: url("images/gameTestCode.jpg") no-repeat;
+    background-size: contain;
+  }
+  .img{
+    height: 180px;
+    background: url("images/javaProj.jpg") no-repeat;
+    background-size: contain;
   }
   </style>
 </head>
@@ -29,7 +40,7 @@
   <p>Starting my journey in Full-Stack Web Development</p> 
 </div>
 
-<nav class="navbar navbar-inverse">
+<!--<nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -47,36 +58,35 @@
       </ul>
     </div>
   </div>
-</nav>
+</nav>-->
 
 <div class="container">
   <div class="row">
     <div class="col-sm-4">
       <h2>About Me</h2>
       <h5>Photo of me:</h5>
-      <div class="img-responsive">Template</div>
-      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+      <div class="img-responsive">Working</div>
+      <p>As of July 12th; I have completed a Java, HTML, CSS, and more Bootcamp. I have continuously found myself coming back to more technical careers. I began my tech journey in the U.S. Air Force. And have found different careers throughout these years. I embrace all changes and challenges. Learning to become a Full-Stack Developer is my current focus.</p>
       <h3>Some Links</h3>
-      <p>Lorem ipsum dolor sit ame.</p>
+      <p>These links are always the primary way to reach me</p>
       <ul class="nav nav-pills nav-stacked">
-        <li class="active"><a href="#">Link 1</a></li>
-        <li><a href="#">Link 2</a></li>
-        <li><a href="#">Link 3</a></li>
+        <li class="active"><a href="https://www.linkedin.com/in/stephcorral/"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="https://github.com/stephcorral"><i class="fab fa-github"></i></a></li>
       </ul>
       <hr class="hidden-sm hidden-md hidden-lg">
     </div>
     <div class="col-sm-8">
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Dec 7, 2017</h5>
-      <div class="fakeimg">Fake Image</div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+      <h2>Bootcamp Templets</h2>
+      <h5>After class Java Developing, June, 2019</h5>
+      <div class="img-fluid">Java Image</div>
+      <p><a href="https://github.com/stephcorral/BootCampTemplets/tree/master/gameTesting">Java TDD clip</a></p>
+      <p>During class, we would go over the Java curriculum. Those who chose to stay would be allowed to use the classroom for a few hours after. We would either create from scratch what we learned that day. Or we would make something we were trying to learn more of. In my gitHub the <a href="https://github.com/stephcorral/BootCampTemplets">BootCampTemplets</a> repository is a bit all over. I was trying to learn as much as I could and coding from memory. Some days we got further than I thought I could. Others we just played with our own memory of the way to set up micro servlets.</p>
       <br>
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Sep 2, 2017</h5>
-      <div class="fakeimg">Fake Image</div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+      <h2>After Bootcamp Project</h2>
+      <h5>A small group of plucky students from the bootcamp have decided to make a web app in Java using Spring Boot, July, 2019</h5>
+      <div class="img">phx</div>
+      <p><a href="https://github.com/stephcorral/MicroServices">Previous Web Apps</a></p>
+      <p>Once our Bootcamp came to a close, a few of us have created a cohort of our own. We are communicating with each other via Skype and diving up the workload. So far it is a month away from getting completely deployed with Pivotal Cloud Foundry. Then on to the next project.</p>
     </div>
   </div>
 </div>
